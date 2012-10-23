@@ -5,6 +5,7 @@
     xmlns:i18n="http://namespaces.zope.org/i18n"
     xmlns:plone="http://namespaces.plone.org/plone"
     xmlns:grok="http://namespaces.zope.org/grok"
+    xmlns:browser="http://namespaces.zope.org/browser"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="wcc.assemblypolicy">
 
@@ -18,5 +19,14 @@
         description='Policy package for WCC Assembly'
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
+
+    <browser:viewlet
+        name="sc.social.likes"
+        manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
+        class="sc.social.like.browser.viewlets.SocialLikesViewlet"
+        layer="sc.social.like.interfaces.ISocialLikeLayer"
+        permission="zope.Public"
+        />
+
 
 </configure>

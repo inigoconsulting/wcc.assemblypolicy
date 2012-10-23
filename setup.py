@@ -16,15 +16,25 @@ setup(name='wcc.assemblypolicy',
       keywords='',
       author='',
       author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      url='http://github.com/inigoconsulting/wcc.assemblypolicy',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['wcc'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'setuptools',
-          # -*- Extra requirements: -*-
+        'setuptools',
+        'collective.carousel',
+        'Products.ContentWellPortlets',
+        'Products.BlingPortlet',
+        'plone.app.dexterity',
+        'sc.social.like',
+        'fourdigits.portlet.twitter',
+        'redturtle.video',
+        'collective.rtvideo.youtube',
+        'collective.rtvideo.vimeo',
+        'collective.contentleadimage'
+        # -*- Extra requirements: -*-
       ],
       entry_points="""
       # -*- Entry points: -*-

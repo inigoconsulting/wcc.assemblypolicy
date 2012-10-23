@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<object>
+  <!-- We hide the one we want to move -->
+  <hidden manager="plone.belowcontenttitle" skinname="*">
+    <viewlet name="sc.social.likes" />
+  </hidden>
+</object>
