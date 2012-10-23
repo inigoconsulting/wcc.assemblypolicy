@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<metadata>
+    <version>1000</version>
+    <dependencies>
+        <dependency>profile-wcc.assemblytheme:default</dependency>
+        <dependency>profile-Products.BlingPortlet:default</dependency>
+        <dependency>profile-Products.ContentWellPortlets:default</dependency>
+        <dependency>profile-plone.app.dexterity:default</dependency>
+        <dependency>profile-collective.carousel:default</dependency>
+    </dependencies>
+</metadata>
+
