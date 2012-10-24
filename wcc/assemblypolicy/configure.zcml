@@ -20,6 +20,14 @@
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 
+    <genericsetup:importStep
+        name="wcc.assemblypolicy"
+        title="WCC Assembly Policy Import Handler"
+        description=""
+        handler="wcc.assemblypolicy.setuphandlers.setupVarious"
+        />
+
+
     <browser:viewlet
         name="sc.social.likes"
         manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
