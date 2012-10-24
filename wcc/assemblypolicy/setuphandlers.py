@@ -1,4 +1,5 @@
 from plone.app.controlpanel.filter import IFilterSchema
+from collective.contentleadimage.leadimageprefs import ILeadImagePrefsForm
 
 def setupVarious(context):
     if context.readDataFile('wcc.assemblypolicy.marker.txt') is None:
@@ -7,6 +8,7 @@ def setupVarious(context):
 
     portal = context.getSite()
     allow_embed_tags(portal)
+    set_leadimage_scales(portal)
 
 def allow_embed_tags(portal):
     filtering = IFilterSchema(portal)
@@ -20,3 +22,8 @@ def allow_embed_tags(portal):
         if t not in custom_tags:
             custom_tags.append(t)
     filtering.custom_tags = custom_tags
+
+def set_leadimage_scales(portal):
+    body_scale_name = u'preview'
+    leadimageprefs = ILeadImagePrefsForm(portal)
+    leadimageprefs.body_scale_name = body_scale_name
