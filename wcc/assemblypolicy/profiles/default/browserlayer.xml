@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<layers>
+    <layer name="wcc.assemblypolicy"
+		interface="wcc.assemblypolicy.interfaces.IProductSpecific" />
+</layers>

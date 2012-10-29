@@ -33,7 +33,8 @@ setup(name='wcc.assemblypolicy',
         'redturtle.video',
         'collective.rtvideo.youtube',
         'collective.rtvideo.vimeo',
-        'collective.contentleadimage'
+        'collective.contentleadimage',
+        'wcc.tinymce'
         # -*- Extra requirements: -*-
       ],
       entry_points="""
