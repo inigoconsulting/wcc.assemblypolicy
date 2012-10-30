@@ -28,14 +28,4 @@
         handler="wcc.assemblypolicy.setuphandlers.setupVarious"
         />
 
-
-    <browser:viewlet
-        name="sc.social.likes"
-        manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
-        class="sc.social.like.browser.viewlets.SocialLikesViewlet"
-        layer="sc.social.like.interfaces.ISocialLikeLayer"
-        permission="zope.Public"
-        />
-
-
 </configure>
