@@ -7,9 +7,10 @@
         <dependency>profile-Products.ContentWellPortlets:default</dependency>
         <dependency>profile-plone.app.dexterity:default</dependency>
         <dependency>profile-collective.carousel:default</dependency>
-        <dependency>profile-sc.social.like:default</dependency>
         <dependency>profile-fourdigits.portlet.twitter:default</dependency>
         <dependency>profile-redturtle.video:default</dependency>
         <dependency>profile-collective.contentleadimage:default</dependency>
+        <dependency>profile-wcc.content:default</dependency>
+        <dependency>profile-collective.socialbar:default</dependency>
     </dependencies>
 </metadata>

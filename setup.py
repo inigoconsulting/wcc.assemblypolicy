@@ -34,7 +34,8 @@ setup(name='wcc.assemblypolicy',
         'collective.rtvideo.youtube',
         'collective.rtvideo.vimeo',
         'collective.contentleadimage',
-        'wcc.tinymce'
+        'wcc.tinymce',
+        'collective.socialbar'
         # -*- Extra requirements: -*-
       ],
       entry_points="""
