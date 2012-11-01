@@ -27,5 +27,6 @@
         description=""
         handler="wcc.assemblypolicy.setuphandlers.setupVarious"
         />
+    <include file="upgrades.zcml"/>
 
 </configure>
