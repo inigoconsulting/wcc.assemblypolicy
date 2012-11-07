@@ -34,7 +34,8 @@ setup(name='wcc.assemblypolicy',
         'collective.rtvideo.vimeo',
         'collective.contentleadimage',
         'wcc.tinymce',
-        'collective.socialbar'
+        'collective.socialbar',
+        'collective.plonetruegallery'
         # -*- Extra requirements: -*-
       ],
       entry_points="""
