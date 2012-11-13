@@ -35,7 +35,8 @@ setup(name='wcc.assemblypolicy',
         'collective.contentleadimage',
         'wcc.tinymce',
         'collective.socialbar',
-        'collective.plonetruegallery'
+        'collective.plonetruegallery',
+        'wcc.songs'
         # -*- Extra requirements: -*-
       ],
       entry_points="""

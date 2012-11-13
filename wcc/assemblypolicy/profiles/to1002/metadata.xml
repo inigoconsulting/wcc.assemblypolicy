@@ -3,6 +3,7 @@
     <version>1002</version>
     <dependencies>
         <dependency>profile-collective.plonetruegallery:default</dependency>
+        <dependency>profile-wcc.songs:default</dependency>
     </dependencies>
 </metadata>
 

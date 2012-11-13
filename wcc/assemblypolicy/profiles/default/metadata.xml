@@ -13,5 +13,6 @@
         <dependency>profile-wcc.content:default</dependency>
         <dependency>profile-collective.socialbar:default</dependency>
         <dependency>profile-collective.plonetruegallery:default</dependency>
+        <dependency>profile-wcc.songs:default</dependency>
     </dependencies>
 </metadata>
