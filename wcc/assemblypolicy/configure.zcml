@@ -27,6 +27,12 @@
         description=""
         handler="wcc.assemblypolicy.setuphandlers.setupVarious"
         />
-    <include file="upgrades.zcml"/>
+
+    <utility
+        factory=".HiddenProducts"
+        name="wcc.assemblypolicy.upgrades"
+        />
+
+    <include package=".upgrades"/>
 
 </configure>

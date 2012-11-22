@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <metadata>
-    <version>1002</version>
+    <version>1003</version>
     <dependencies>
         <dependency>profile-wcc.assemblytheme:default</dependency>
         <dependency>profile-Products.BlingPortlet:default</dependency>
@@ -14,5 +14,6 @@
         <dependency>profile-collective.socialbar:default</dependency>
         <dependency>profile-collective.plonetruegallery:default</dependency>
         <dependency>profile-wcc.songs:default</dependency>
+        <dependency>profile-Products.RedirectionTool:default</dependency>
     </dependencies>
 </metadata>

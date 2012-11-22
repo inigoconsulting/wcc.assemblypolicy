@@ -8,7 +8,7 @@
     description=""
     source="1000"
     destination="1001"
-    handler=".upgrades.to1001"
+    handler=".handlers.to1001"
     profile="wcc.assemblypolicy:default"/>
 
 
@@ -25,7 +25,7 @@
     description=""
     source="1001"
     destination="1002"
-    handler=".upgrades.to1002"
+    handler=".handlers.to1002"
     profile="wcc.assemblypolicy:default"/>
 
 
@@ -33,6 +33,24 @@
     name="to1002"
     title=""
     directory="profiles/to1002"
+    description=""
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    />
+
+
+ <gs:upgradeStep
+    title="Upgrade to 1003"
+    description=""
+    source="1001"
+    destination="1003"
+    handler=".handlers.to1003"
+    profile="wcc.assemblypolicy:default"/>
+
+
+ <gs:registerProfile
+    name="to1003"
+    title=""
+    directory="profiles/to1003"
     description=""
     provides="Products.GenericSetup.interfaces.EXTENSION"
     />

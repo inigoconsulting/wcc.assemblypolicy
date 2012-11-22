@@ -36,7 +36,9 @@ setup(name='wcc.assemblypolicy',
         'wcc.tinymce',
         'collective.socialbar',
         'collective.plonetruegallery',
-        'wcc.songs'
+        'wcc.songs',
+        'wcc.common',
+        'Products.RedirectionTool',
         # -*- Extra requirements: -*-
       ],
       entry_points="""
