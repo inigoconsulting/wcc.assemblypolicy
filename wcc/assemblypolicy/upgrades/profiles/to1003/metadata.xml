@@ -3,6 +3,7 @@
     <version>1003</version>
     <dependencies>
         <dependency>profile-Products.RedirectionTool:default</dependency>
+        <dependency>profile-wcc.common:default</dependency>
     </dependencies>
 </metadata>
 
