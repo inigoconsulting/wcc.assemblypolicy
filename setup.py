@@ -6,7 +6,7 @@ version = '1.3.dev0'
 setup(name='wcc.assemblypolicy',
       version=version,
       description="",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
@@ -36,6 +36,12 @@ setup(name='wcc.assemblypolicy',
         'wcc.tinymce',
         'collective.socialbar',
         'collective.plonetruegallery',
+        'collective.ptg.presentation',
+        'collective.ptg.galleriffic',
+        'collective.ptg.highslide',
+        'collective.ptg.nivoslider',
+        'collective.ptg.nivogallery',
+        'collective.ptg.contentflow',
         'wcc.songs',
         'wcc.common',
         'Products.RedirectionTool',
