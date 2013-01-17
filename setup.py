@@ -39,6 +39,7 @@ setup(name='wcc.assemblypolicy',
         'wcc.songs',
         'wcc.common',
         'Products.RedirectionTool',
+        'collective.js.moment'
         # -*- Extra requirements: -*-
       ],
       entry_points="""
