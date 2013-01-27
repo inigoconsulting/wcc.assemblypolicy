@@ -35,4 +35,8 @@
 
     <include package=".upgrades"/>
 
+    <browser:jbot
+        directory="jbot"
+        layer=".interfaces.IProductSpecific" />
+
 </configure>
