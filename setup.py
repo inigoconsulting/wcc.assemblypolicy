@@ -47,7 +47,9 @@ setup(name='wcc.assemblypolicy',
         'Products.RedirectionTool',
         'collective.js.moment',
         'wcc.twitterportlet',
-        'z3c.jbot'
+        'z3c.jbot',
+        'wcc.assemblytheme',
+        'wcc.songs'
         # -*- Extra requirements: -*-
       ],
       entry_points="""
