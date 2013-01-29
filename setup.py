@@ -49,7 +49,9 @@ setup(name='wcc.assemblypolicy',
         'wcc.twitterportlet',
         'z3c.jbot',
         'wcc.assemblytheme',
-        'wcc.songs'
+        'wcc.songs',
+        'wcc.content',
+        'collective.js.jqueryui',
         # -*- Extra requirements: -*-
       ],
       entry_points="""
