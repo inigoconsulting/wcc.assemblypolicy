@@ -15,5 +15,6 @@
         <dependency>profile-collective.plonetruegallery:default</dependency>
         <dependency>profile-wcc.songs:default</dependency>
         <dependency>profile-Products.RedirectionTool:default</dependency>
+        <dependency>profile-wcc.videolink:default</dependency>
     </dependencies>
 </metadata>

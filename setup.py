@@ -52,6 +52,7 @@ setup(name='wcc.assemblypolicy',
         'wcc.songs',
         'wcc.content',
         'collective.js.jqueryui',
+        'wcc.videolink',
         # -*- Extra requirements: -*-
       ],
       entry_points="""
