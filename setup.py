@@ -54,7 +54,8 @@ setup(name='wcc.assemblypolicy',
         'collective.js.jqueryui',
         'wcc.videolink',
         'wcc.assemblyhomepage',
-        'wcc.programmeplanner'
+        'wcc.programmeplanner',
+        'wcc.video'
         # -*- Extra requirements: -*-
       ],
       entry_points="""
