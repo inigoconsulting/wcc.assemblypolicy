@@ -39,4 +39,13 @@
         directory="jbot"
         layer=".interfaces.IProductSpecific" />
 
+    <browser:viewlet
+        name="collective.socialbar"
+        for="*"
+        manager="plone.app.layout.viewlets.interfaces.IBelowContentTitle"
+        template="socialbarviewlet.pt"
+        permission="zope.Public"
+        layer=".interfaces.IProductSpecific"
+        />
+
 </configure>
