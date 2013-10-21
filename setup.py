@@ -55,7 +55,8 @@ setup(name='wcc.assemblypolicy',
         'wcc.videolink',
         'wcc.assemblyhomepage',
         'wcc.programmeplanner',
-        'wcc.video'
+        'wcc.video',
+        'wcc.facebook',
         # -*- Extra requirements: -*-
       ],
       entry_points="""
