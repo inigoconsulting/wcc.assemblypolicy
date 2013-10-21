@@ -48,4 +48,8 @@
         layer=".interfaces.IProductSpecific"
         />
 
+    <browser:resourceDirectory
+        name="wcc.assemblypolicy"
+        directory="resources"/>
+
 </configure>

@@ -1,6 +1,7 @@
 <div id="collectivesocialbar"
     tal:define="portal context/@@plone_portal_state/portal;
-                resurl string:${portal/absolute_url}/++resource++collective.socialbar;
+    resurl string:${portal/absolute_url}/++resource++collective.socialbar;
+                resurl2 string:${portal/absolute_url}/++resource++wcc.assemblypolicy;
                 here_url context/absolute_url">
     <style>
        #collectivesocialbar a img { height:24px }
@@ -26,5 +27,9 @@
     <a tal:attributes="href string:http://twitter.com/intent/tweet?url=${here_url}">
         <img tal:attributes="src string:${resurl}/twitter.png"/>
     </a>
-     <div class="visualClear"></div>
+    <a href="http://www.addinto.com/ai?type=bkmk" onmouseover="ai2display_bkmk(this, '', '', '');" onmouseout="ai2close_bkmk();">
+        <img tal:attributes="src string:${resurl2}/star.png"
+            alt="AddInto" border="0" /></a>
+    <script type="text/javascript" src="http://static.addinto.com/ai/ai2_bkmk.js"></script>
+    <div class="visualClear"></div>
 </div>
